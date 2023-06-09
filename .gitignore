@@ -20,3 +20,5 @@ test/ct.cover.spec
 /.idea/
 rebar3.crashdump
 rebar3
+.DS_Store 
+*/.DS_Store

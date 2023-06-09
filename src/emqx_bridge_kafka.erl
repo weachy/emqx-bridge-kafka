@@ -14,7 +14,7 @@
 %% limitations under the License.
 %%--------------------------------------------------------------------
 
--module(emqx_plugin_template).
+-module(emqx_bridge_kafka).
 
 %% for #message{} record
 %% no need for this include if we call emqx_message:to_map/1 to convert it to a map
