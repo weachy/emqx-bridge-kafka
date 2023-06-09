@@ -1,14 +1,14 @@
-{application, emqx_plugin_template,
- [{description, "EMQX Plugin Template"},
+{application, emqx_bridge_kafka,
+ [{description, "EMQ X 5.0+ Plugin - Kafka"},
   {vsn, "5.0.0"},
   {modules, []},
-  {registered, [emqx_plugin_template_sup]},
+  {registered, [emqx_bridge_kafka_sup]},
   {applications, [kernel,stdlib,map_sets]},
-  {mod, {emqx_plugin_template_app,[]}},
+  {mod, {emqx_bridge_kafka_app,[]}},
   {env, []},
   {licenses, ["Apache-2.0"]},
-  {maintainers, ["EMQX Team <contact@emqx.io>"]},
-  {links, [{"Homepage", "https://emqx.io/"},
-           {"Github", "https://github.com/emqx/emqx-plugin-template"}
+  {maintainers, ["weachy <https://github.com/weachy>"]},
+  {links, [{"Homepage", "https://github.com/weachy"},
+           {"Github", "https://github.com/weachy/emqx-bridge-kafka"}
           ]}
  ]}.
